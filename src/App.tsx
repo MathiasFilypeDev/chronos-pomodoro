@@ -1,34 +1,22 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-
-function App() {
-  const [count, setCount] = useState(0);
+export function App() {
+  console.log('Olá mundo');
 
   return (
-    <>
-      <div>
-        <a href='https://vite.dev' target='_blank'>
-          <img src={viteLogo} className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://react.dev' target='_blank'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button onClick={() => setCount(count => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+  <div>
+    <h1>Olá mundo</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sequi ab!
+      Facilis impedit beatae eum distinctio molestiae harum amet ipsa sequi,
+      totam esse! Aut similique excepturi iure fugit libero voluptates?
+      Temporibus voluptatem vero nihil aperiam, ad consequuntur, molestias
+      eveniet architecto, ipsa totam quisquam iste quos! Aliquam ipsa deleniti
+      eos fugit consectetur laboriosam iure. Praesentium vel soluta repellendus
+      veritatis iusto corporis. Pariatur delectus nam perspiciatis quis
+      accusamus qui dolor error eveniet consequuntur? Unde tempore, recusandae
+      quod perspiciatis non, adipisci officia, laboriosam alias sequi voluptatem
+      odio iste et sunt reiciendis dolorum maxime.
+    </p>
+  </div>
   );
 }
 
