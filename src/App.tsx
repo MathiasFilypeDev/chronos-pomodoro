@@ -1,14 +1,13 @@
-
 import { Heading } from './components/Heading';
-import './style/global.css';
-import './style/theme.css';
+import './styles/global.css';
+import './styles/theme.css';
 
 export function App() {
   console.log('Olá mundo');
 
   return (
     <>
-     <Heading/>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sequi
         ab! Facilis impedit beatae eum distinctio molestiae harum amet ipsa
@@ -24,5 +23,3 @@ export function App() {
     </>
   );
 }
-
-export default App;
