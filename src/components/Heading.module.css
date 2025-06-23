@@ -1,3 +1,8 @@
 .heading {
-    background: brown;
+    background: grey;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
 }
