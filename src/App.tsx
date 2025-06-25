@@ -1,4 +1,5 @@
 import { Container } from './components/container';
+import { CountDown } from './components/CountDown';
 import { Logo } from './components/logo';
 import { Menu } from './components/menu';
 
@@ -11,8 +12,13 @@ export function App() {
       <Container>
         <Logo></Logo>
       </Container>
+
       <Container>
        <Menu />
+      </Container>
+
+      <Container>
+       <CountDown />
       </Container>
     </>
   );
