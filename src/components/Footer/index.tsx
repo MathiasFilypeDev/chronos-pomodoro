@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}> 
       <a href='#'>Entenda como funciona a técnica Pomodoro</a>
-      <a href=''> <CopyrightIcon /> Chronos Pomodoro {new Date().getFullYear()} Feito com 💚
+      <a href='#'> <CopyrightIcon /> Chronos Pomodoro {new Date().getFullYear()} Feito com 💚
       </a>
     </footer>
   );
