@@ -7,7 +7,7 @@
   "editor.glyphMargin": false,
   "workbench.activityBar.location": "default",
   "editor.lineNumbers": "on",
-  "files.eol": "\n",  //Final de linha sempre será LF
+  "files.eol": "\n", //Final de linha sempre será LF
   "workbench.editor.labelFormat": "short",
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
