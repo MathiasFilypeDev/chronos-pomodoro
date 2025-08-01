@@ -1,3 +1,5 @@
+import type { TaskStateModel } from './TaskStateModels';
+
 export type TaskModel = {
   id: string;
   name: string;
@@ -5,5 +7,5 @@ export type TaskModel = {
   startDate: number;
   completeDate: number | null; //Quando o timer chega ao final
   interruptDate: number | null; //Quando a task for interrompida
-  type: 'workType' | 'shortWorkTime' | 'longWorkTime';
+  type: keyof TaskStateModel['config'];
 };
